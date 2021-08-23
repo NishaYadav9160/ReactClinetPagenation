@@ -1,0 +1,156 @@
+.navbar {
+  width: 100%;
+  background-color: rgb(111, 117, 117);
+  overflow: auto;
+}
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+.active {
+  background-color: #2592eb;
+}
+
+.container-home {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.row-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-flow: wrap;
+  padding: 1%;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 165%;
+  float: 134%;
+  margin-bottom: 7%;
+  position: fixed;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.form-Addlist {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin: -3%;
+}
+.form-Addlist .btn-addtask {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+}
+.btn-addtask:disabled,
+.btn-addtask[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+.form-Addlist input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.form-Addlist select {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.pagenation {
+  display: flex;
+  width: 121%;
+  height: auto;
+  overflow: auto;
+  justify-content: space-around;
+  margin-bottom: -65%;
+}
+
+.center {
+  margin: -9%;
+  width: 50%;
+  max-width: 320px;
+  min-width: 149px;
+  position: fixed;
+  top: 50%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  font-size: 13px;
+}
+div.loader {
+  font-size: 100px;
+}
+
+.loaded {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.showError {
+  border-color: rgb(241, 138, 138) !important;
+  color: rgb(241, 138, 138) !important;
+  margin-bottom: 15px;
+}
+.btn-addtask:disabled,
+.btn-addtask[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+.form-Addlist1 {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin: 1%;
+}
+
+.form-Addlist1 .btn-addtask {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+}
+.btn-addtask:disabled,
+.btn-addtask[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+.form-Addlist1 input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.form-Addlist1 select {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
